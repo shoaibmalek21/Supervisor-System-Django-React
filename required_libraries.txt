@@ -1,11 +1,12 @@
 - Create virtual environment
+
 python3 --version
 pip3 install pipenv
 pipenv shell
 
 pipenv install django djangorestframework django-rest-knox
 
--Implementing React*
+-Implementing React using required libraries*
 
 npm init -y
 npm i -D webpack webpack-cli
@@ -15,7 +16,7 @@ npm i react react-dom prop-types
 
 npm run dev
 
--Redux & http*
+-Use Redux & http*
 
 npm i redux react-redux redux-thunk redux-devtools-extension
 npm i axois
